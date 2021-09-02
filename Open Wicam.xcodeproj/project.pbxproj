@@ -1,0 +1,880 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C0101521D722EE600D55BFD /* FileBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0101481D722E9000D55BFD /* FileBrowser.framework */; };
+		1C05CE451D6B9D94001C2D55 /* WicamDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C05CE441D6B9D94001C2D55 /* WicamDelegate.swift */; };
+		1C05CE781D6C8F24001C2D55 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C05CE5E1D6C8EE4001C2D55 /* CocoaAsyncSocket.framework */; };
+		1C05CE791D6C8F24001C2D55 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C05CE6D1D6C8EF0001C2D55 /* Starscream.framework */; };
+		1C05CE7D1D6CA4DF001C2D55 /* WicamStoreDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C05CE7C1D6CA4DF001C2D55 /* WicamStoreDelegate.swift */; };
+		1C05CE7F1D6E48C9001C2D55 /* VideoModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C05CE7E1D6E48C9001C2D55 /* VideoModeViewController.swift */; };
+		1C05CE811D6E48DD001C2D55 /* PictureModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C05CE801D6E48DD001C2D55 /* PictureModeViewController.swift */; };
+		1C0C485B1D76632100842D49 /* FileBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0101481D722E9000D55BFD /* FileBrowser.framework */; };
+		1C0C48661D76635D00842D49 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C05CE6D1D6C8EF0001C2D55 /* Starscream.framework */; };
+		1C0C486A1D76635D00842D49 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C05CE5E1D6C8EE4001C2D55 /* CocoaAsyncSocket.framework */; };
+		1C0C486E1D7698A000842D49 /* FileBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0101481D722E9000D55BFD /* FileBrowser.framework */; };
+		1C0C486F1D7698A000842D49 /* FileBrowser.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1C0101481D722E9000D55BFD /* FileBrowser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1C0C48721D7698A000842D49 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C05CE6D1D6C8EF0001C2D55 /* Starscream.framework */; };
+		1C0C48731D7698A000842D49 /* Starscream.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1C05CE6D1D6C8EF0001C2D55 /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1C0C48761D7698A000842D49 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C05CE5E1D6C8EE4001C2D55 /* CocoaAsyncSocket.framework */; };
+		1C0C48771D7698A000842D49 /* CocoaAsyncSocket.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1C05CE5E1D6C8EE4001C2D55 /* CocoaAsyncSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1CE865E21D67A2D7009AA87C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE865E11D67A2D7009AA87C /* AppDelegate.swift */; };
+		1CE865E41D67A2D7009AA87C /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE865E31D67A2D7009AA87C /* SigninViewController.swift */; };
+		1CE865E71D67A2D7009AA87C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CE865E51D67A2D7009AA87C /* Main.storyboard */; };
+		1CE865E91D67A2D7009AA87C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CE865E81D67A2D7009AA87C /* Assets.xcassets */; };
+		1CE865EC1D67A2D7009AA87C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CE865EA1D67A2D7009AA87C /* LaunchScreen.storyboard */; };
+		1CE865F71D67A2D7009AA87C /* WicamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE865F61D67A2D7009AA87C /* WicamTests.swift */; };
+		1CE866021D67ACA8009AA87C /* Wicam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE866011D67ACA8009AA87C /* Wicam.swift */; };
+		1CE866041D67C12E009AA87C /* WicamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE866031D67C12E009AA87C /* WicamTableViewCell.swift */; };
+		1CE866061D67C7D6009AA87C /* WicamTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE866051D67C7D6009AA87C /* WicamTableViewController.swift */; };
+		1CF3E95D1D709B4F0070F2CC /* helper.c in Sources */ = {isa = PBXBuildFile; fileRef = 1CF3E95B1D709B4F0070F2CC /* helper.c */; };
+		1CF3E9651D70DF2C0070F2CC /* libMiniUPnPc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF3E9631D70DF180070F2CC /* libMiniUPnPc.a */; };
+		1CF3E9671D70E10E0070F2CC /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF3E9661D70E10E0070F2CC /* SettingViewController.swift */; };
+		1CF49EF71D6A6FBF009362D4 /* EZLoadingActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF49EF61D6A6FBF009362D4 /* EZLoadingActivity.swift */; };
+		1CFA87E91D68D9F200D5AE06 /* ChooseModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFA87E81D68D9F200D5AE06 /* ChooseModeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C0101471D722E9000D55BFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C01013F1D722E9000D55BFD /* FileBrowser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 344169541C67812400B93D28;
+			remoteInfo = FileBrowser;
+		};
+		1C0101491D722E9000D55BFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C01013F1D722E9000D55BFD /* FileBrowser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3441695E1C67812400B93D28;
+			remoteInfo = FileBrowserTests;
+		};
+		1C04E5401D73ADC100F06752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C01013F1D722E9000D55BFD /* FileBrowser.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 344169531C67812400B93D28;
+			remoteInfo = FileBrowser;
+		};
+		1C04E5421D73ADC700F06752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CF3E95E1D70DF170070F2CC /* MiniUPnPc.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CF3E8E41D6F6EFD0070F2CC;
+			remoteInfo = MiniUPnPc;
+		};
+		1C04E5441D73ADCB00F06752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C05CE631D6C8EF0001C2D55 /* Starscream.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B3E79E519D48B7F006071F7;
+			remoteInfo = "Starscream iOS";
+		};
+		1C04E5461D73ADCF00F06752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C05CE571D6C8EE4001C2D55 /* CocoaAsyncSocket.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CD9900F1B77868C0011A685;
+			remoteInfo = "iOS CocoaAsyncSocket";
+		};
+		1C05CE5D1D6C8EE4001C2D55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C05CE571D6C8EE4001C2D55 /* CocoaAsyncSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6CD990101B77868C0011A685;
+			remoteInfo = "iOS CocoaAsyncSocket";
+		};
+		1C05CE5F1D6C8EE4001C2D55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C05CE571D6C8EE4001C2D55 /* CocoaAsyncSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9FC41F131B9D965000578BEB;
+			remoteInfo = "Mac CocoaAsyncSocket";
+		};
+		1C05CE611D6C8EE4001C2D55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C05CE571D6C8EE4001C2D55 /* CocoaAsyncSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7D8B70C41BCFA15700D8E273;
+			remoteInfo = "tvOS CocoaAsyncSocket";
+		};
+		1C05CE6C1D6C8EF0001C2D55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C05CE631D6C8EF0001C2D55 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6B3E79E619D48B7F006071F7;
+			remoteInfo = "Starscream iOS";
+		};
+		1C05CE6E1D6C8EF0001C2D55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C05CE631D6C8EF0001C2D55 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6B3E79F119D48B7F006071F7;
+			remoteInfo = "Starscream iOSTests";
+		};
+		1C05CE701D6C8EF0001C2D55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C05CE631D6C8EF0001C2D55 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9C3E35F19E48FF1009FC285;
+			remoteInfo = "Starscream OSX";
+		};
+		1C05CE721D6C8EF0001C2D55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C05CE631D6C8EF0001C2D55 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9C3E36919E48FF1009FC285;
+			remoteInfo = "Starscream OSXTests";
+		};
+		1C05CE741D6C8EF0001C2D55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C05CE631D6C8EF0001C2D55 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 091277971BD673A70003036D;
+			remoteInfo = "Starscream tvOS";
+		};
+		1C05CE761D6C8EF0001C2D55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C05CE631D6C8EF0001C2D55 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 091277A01BD673A70003036D;
+			remoteInfo = "Starscream tvOSTests";
+		};
+		1C0C485D1D76632100842D49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C01013F1D722E9000D55BFD /* FileBrowser.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 344169531C67812400B93D28;
+			remoteInfo = FileBrowser;
+		};
+		1C0C48681D76635D00842D49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C05CE631D6C8EF0001C2D55 /* Starscream.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B3E79E519D48B7F006071F7;
+			remoteInfo = "Starscream iOS";
+		};
+		1C0C486C1D76635D00842D49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C05CE571D6C8EE4001C2D55 /* CocoaAsyncSocket.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CD9900F1B77868C0011A685;
+			remoteInfo = "iOS CocoaAsyncSocket";
+		};
+		1C0C48701D7698A000842D49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C01013F1D722E9000D55BFD /* FileBrowser.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 344169531C67812400B93D28;
+			remoteInfo = FileBrowser;
+		};
+		1C0C48741D7698A000842D49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C05CE631D6C8EF0001C2D55 /* Starscream.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B3E79E519D48B7F006071F7;
+			remoteInfo = "Starscream iOS";
+		};
+		1C0C48781D7698A000842D49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C05CE571D6C8EE4001C2D55 /* CocoaAsyncSocket.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CD9900F1B77868C0011A685;
+			remoteInfo = "iOS CocoaAsyncSocket";
+		};
+		1CE865F31D67A2D7009AA87C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CE865D61D67A2D7009AA87C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CE865DD1D67A2D7009AA87C;
+			remoteInfo = Wicam;
+		};
+		1CF3E9621D70DF180070F2CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CF3E95E1D70DF170070F2CC /* MiniUPnPc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CF3E8E51D6F6EFD0070F2CC;
+			remoteInfo = MiniUPnPc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1CFA88001D6915BF00D5AE06 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1C0C48771D7698A000842D49 /* CocoaAsyncSocket.framework in CopyFiles */,
+				1C0C486F1D7698A000842D49 /* FileBrowser.framework in CopyFiles */,
+				1C0C48731D7698A000842D49 /* Starscream.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1C01013F1D722E9000D55BFD /* FileBrowser.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FileBrowser.xcodeproj; path = FileBrowser/FileBrowser.xcodeproj; sourceTree = "<group>"; };
+		1C05CE441D6B9D94001C2D55 /* WicamDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WicamDelegate.swift; sourceTree = "<group>"; };
+		1C05CE571D6C8EE4001C2D55 /* CocoaAsyncSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CocoaAsyncSocket.xcodeproj; path = CocoaAsyncSocket/CocoaAsyncSocket.xcodeproj; sourceTree = "<group>"; };
+		1C05CE631D6C8EF0001C2D55 /* Starscream.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Starscream.xcodeproj; path = Starscream/Starscream.xcodeproj; sourceTree = "<group>"; };
+		1C05CE7C1D6CA4DF001C2D55 /* WicamStoreDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WicamStoreDelegate.swift; sourceTree = "<group>"; };
+		1C05CE7E1D6E48C9001C2D55 /* VideoModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoModeViewController.swift; sourceTree = "<group>"; };
+		1C05CE801D6E48DD001C2D55 /* PictureModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureModeViewController.swift; sourceTree = "<group>"; };
+		1CE865DE1D67A2D7009AA87C /* Wicam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wicam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CE865E11D67A2D7009AA87C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1CE865E31D67A2D7009AA87C /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		1CE865E61D67A2D7009AA87C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CE865E81D67A2D7009AA87C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CE865EB1D67A2D7009AA87C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1CE865ED1D67A2D7009AA87C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CE865F21D67A2D7009AA87C /* WicamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WicamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CE865F61D67A2D7009AA87C /* WicamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WicamTests.swift; sourceTree = "<group>"; };
+		1CE865F81D67A2D7009AA87C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CE866011D67ACA8009AA87C /* Wicam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wicam.swift; sourceTree = "<group>"; };
+		1CE866031D67C12E009AA87C /* WicamTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WicamTableViewCell.swift; sourceTree = "<group>"; };
+		1CE866051D67C7D6009AA87C /* WicamTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WicamTableViewController.swift; sourceTree = "<group>"; };
+		1CF3E92B1D6F9C830070F2CC /* Wicam-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wicam-Bridging-Header.h"; sourceTree = "<group>"; };
+		1CF3E95B1D709B4F0070F2CC /* helper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = helper.c; path = ../helper.c; sourceTree = "<group>"; };
+		1CF3E95C1D709B4F0070F2CC /* helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = helper.h; path = ../helper.h; sourceTree = "<group>"; };
+		1CF3E95E1D70DF170070F2CC /* MiniUPnPc.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MiniUPnPc.xcodeproj; path = MiniUPnPc/MiniUPnPc.xcodeproj; sourceTree = "<group>"; };
+		1CF3E9661D70E10E0070F2CC /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		1CF49EF61D6A6FBF009362D4 /* EZLoadingActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZLoadingActivity.swift; sourceTree = "<group>"; };
+		1CFA87E81D68D9F200D5AE06 /* ChooseModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseModeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CE865DB1D67A2D7009AA87C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C0C486A1D76635D00842D49 /* CocoaAsyncSocket.framework in Frameworks */,
+				1C0101521D722EE600D55BFD /* FileBrowser.framework in Frameworks */,
+				1C0C48761D7698A000842D49 /* CocoaAsyncSocket.framework in Frameworks */,
+				1C0C48661D76635D00842D49 /* Starscream.framework in Frameworks */,
+				1CF3E9651D70DF2C0070F2CC /* libMiniUPnPc.a in Frameworks */,
+				1C0C48721D7698A000842D49 /* Starscream.framework in Frameworks */,
+				1C05CE781D6C8F24001C2D55 /* CocoaAsyncSocket.framework in Frameworks */,
+				1C0C486E1D7698A000842D49 /* FileBrowser.framework in Frameworks */,
+				1C05CE791D6C8F24001C2D55 /* Starscream.framework in Frameworks */,
+				1C0C485B1D76632100842D49 /* FileBrowser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CE865EF1D67A2D7009AA87C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C0101401D722E9000D55BFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C0101481D722E9000D55BFD /* FileBrowser.framework */,
+				1C01014A1D722E9000D55BFD /* FileBrowserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C05CE581D6C8EE4001C2D55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C05CE5E1D6C8EE4001C2D55 /* CocoaAsyncSocket.framework */,
+				1C05CE601D6C8EE4001C2D55 /* CocoaAsyncSocket.framework */,
+				1C05CE621D6C8EE4001C2D55 /* CocoaAsyncSocket.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C05CE641D6C8EF0001C2D55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C05CE6D1D6C8EF0001C2D55 /* Starscream.framework */,
+				1C05CE6F1D6C8EF0001C2D55 /* Starscream iOSTests.xctest */,
+				1C05CE711D6C8EF0001C2D55 /* Starscream.framework */,
+				1C05CE731D6C8EF0001C2D55 /* Starscream OSXTests.xctest */,
+				1C05CE751D6C8EF0001C2D55 /* Starscream.framework */,
+				1C05CE771D6C8EF0001C2D55 /* Starscream tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CE865D51D67A2D7009AA87C = {
+			isa = PBXGroup;
+			children = (
+				1C01013F1D722E9000D55BFD /* FileBrowser.xcodeproj */,
+				1CF3E95E1D70DF170070F2CC /* MiniUPnPc.xcodeproj */,
+				1C05CE631D6C8EF0001C2D55 /* Starscream.xcodeproj */,
+				1C05CE571D6C8EE4001C2D55 /* CocoaAsyncSocket.xcodeproj */,
+				1CE865E01D67A2D7009AA87C /* Wicam */,
+				1CE865F51D67A2D7009AA87C /* WicamTests */,
+				1CE865DF1D67A2D7009AA87C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CE865DF1D67A2D7009AA87C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CE865DE1D67A2D7009AA87C /* Wicam.app */,
+				1CE865F21D67A2D7009AA87C /* WicamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CE865E01D67A2D7009AA87C /* Wicam */ = {
+			isa = PBXGroup;
+			children = (
+				1CF49EF61D6A6FBF009362D4 /* EZLoadingActivity.swift */,
+				1CFA87E81D68D9F200D5AE06 /* ChooseModeViewController.swift */,
+				1CE865E11D67A2D7009AA87C /* AppDelegate.swift */,
+				1CE865E31D67A2D7009AA87C /* SigninViewController.swift */,
+				1CE865E51D67A2D7009AA87C /* Main.storyboard */,
+				1CF3E9661D70E10E0070F2CC /* SettingViewController.swift */,
+				1C05CE7E1D6E48C9001C2D55 /* VideoModeViewController.swift */,
+				1C05CE801D6E48DD001C2D55 /* PictureModeViewController.swift */,
+				1CE866051D67C7D6009AA87C /* WicamTableViewController.swift */,
+				1CE866031D67C12E009AA87C /* WicamTableViewCell.swift */,
+				1CE866011D67ACA8009AA87C /* Wicam.swift */,
+				1C05CE7C1D6CA4DF001C2D55 /* WicamStoreDelegate.swift */,
+				1C05CE441D6B9D94001C2D55 /* WicamDelegate.swift */,
+				1CE865E81D67A2D7009AA87C /* Assets.xcassets */,
+				1CF3E95B1D709B4F0070F2CC /* helper.c */,
+				1CF3E95C1D709B4F0070F2CC /* helper.h */,
+				1CE865EA1D67A2D7009AA87C /* LaunchScreen.storyboard */,
+				1CE865ED1D67A2D7009AA87C /* Info.plist */,
+				1CF3E92B1D6F9C830070F2CC /* Wicam-Bridging-Header.h */,
+			);
+			path = Wicam;
+			sourceTree = "<group>";
+		};
+		1CE865F51D67A2D7009AA87C /* WicamTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CE865F61D67A2D7009AA87C /* WicamTests.swift */,
+				1CE865F81D67A2D7009AA87C /* Info.plist */,
+			);
+			path = WicamTests;
+			sourceTree = "<group>";
+		};
+		1CF3E95F1D70DF170070F2CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CF3E9631D70DF180070F2CC /* libMiniUPnPc.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CE865DD1D67A2D7009AA87C /* Wicam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CE865FB1D67A2D7009AA87C /* Build configuration list for PBXNativeTarget "Wicam" */;
+			buildPhases = (
+				1CE865DA1D67A2D7009AA87C /* Sources */,
+				1CE865DB1D67A2D7009AA87C /* Frameworks */,
+				1CE865DC1D67A2D7009AA87C /* Resources */,
+				1CFA88001D6915BF00D5AE06 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C04E5471D73ADCF00F06752 /* PBXTargetDependency */,
+				1C04E5451D73ADCB00F06752 /* PBXTargetDependency */,
+				1C04E5431D73ADC700F06752 /* PBXTargetDependency */,
+				1C04E5411D73ADC100F06752 /* PBXTargetDependency */,
+				1C0C485E1D76632100842D49 /* PBXTargetDependency */,
+				1C0C48691D76635D00842D49 /* PBXTargetDependency */,
+				1C0C486D1D76635D00842D49 /* PBXTargetDependency */,
+				1C0C48711D7698A000842D49 /* PBXTargetDependency */,
+				1C0C48751D7698A000842D49 /* PBXTargetDependency */,
+				1C0C48791D7698A000842D49 /* PBXTargetDependency */,
+			);
+			name = Wicam;
+			productName = Wicam;
+			productReference = 1CE865DE1D67A2D7009AA87C /* Wicam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CE865F11D67A2D7009AA87C /* WicamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CE865FE1D67A2D7009AA87C /* Build configuration list for PBXNativeTarget "WicamTests" */;
+			buildPhases = (
+				1CE865EE1D67A2D7009AA87C /* Sources */,
+				1CE865EF1D67A2D7009AA87C /* Frameworks */,
+				1CE865F01D67A2D7009AA87C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CE865F41D67A2D7009AA87C /* PBXTargetDependency */,
+			);
+			name = WicamTests;
+			productName = WicamTests;
+			productReference = 1CE865F21D67A2D7009AA87C /* WicamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CE865D61D67A2D7009AA87C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Armstart;
+				TargetAttributes = {
+					1CE865DD1D67A2D7009AA87C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 94Z2K3J7H7;
+					};
+					1CE865F11D67A2D7009AA87C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1CE865DD1D67A2D7009AA87C;
+					};
+				};
+			};
+			buildConfigurationList = 1CE865D91D67A2D7009AA87C /* Build configuration list for PBXProject "Open Wicam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CE865D51D67A2D7009AA87C;
+			productRefGroup = 1CE865DF1D67A2D7009AA87C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1C05CE581D6C8EE4001C2D55 /* Products */;
+					ProjectRef = 1C05CE571D6C8EE4001C2D55 /* CocoaAsyncSocket.xcodeproj */;
+				},
+				{
+					ProductGroup = 1C0101401D722E9000D55BFD /* Products */;
+					ProjectRef = 1C01013F1D722E9000D55BFD /* FileBrowser.xcodeproj */;
+				},
+				{
+					ProductGroup = 1CF3E95F1D70DF170070F2CC /* Products */;
+					ProjectRef = 1CF3E95E1D70DF170070F2CC /* MiniUPnPc.xcodeproj */;
+				},
+				{
+					ProductGroup = 1C05CE641D6C8EF0001C2D55 /* Products */;
+					ProjectRef = 1C05CE631D6C8EF0001C2D55 /* Starscream.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1CE865DD1D67A2D7009AA87C /* Wicam */,
+				1CE865F11D67A2D7009AA87C /* WicamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1C0101481D722E9000D55BFD /* FileBrowser.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FileBrowser.framework;
+			remoteRef = 1C0101471D722E9000D55BFD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1C01014A1D722E9000D55BFD /* FileBrowserTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FileBrowserTests.xctest;
+			remoteRef = 1C0101491D722E9000D55BFD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1C05CE5E1D6C8EE4001C2D55 /* CocoaAsyncSocket.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CocoaAsyncSocket.framework;
+			remoteRef = 1C05CE5D1D6C8EE4001C2D55 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1C05CE601D6C8EE4001C2D55 /* CocoaAsyncSocket.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CocoaAsyncSocket.framework;
+			remoteRef = 1C05CE5F1D6C8EE4001C2D55 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1C05CE621D6C8EE4001C2D55 /* CocoaAsyncSocket.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CocoaAsyncSocket.framework;
+			remoteRef = 1C05CE611D6C8EE4001C2D55 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1C05CE6D1D6C8EF0001C2D55 /* Starscream.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Starscream.framework;
+			remoteRef = 1C05CE6C1D6C8EF0001C2D55 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1C05CE6F1D6C8EF0001C2D55 /* Starscream iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Starscream iOSTests.xctest";
+			remoteRef = 1C05CE6E1D6C8EF0001C2D55 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1C05CE711D6C8EF0001C2D55 /* Starscream.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Starscream.framework;
+			remoteRef = 1C05CE701D6C8EF0001C2D55 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1C05CE731D6C8EF0001C2D55 /* Starscream OSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Starscream OSXTests.xctest";
+			remoteRef = 1C05CE721D6C8EF0001C2D55 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1C05CE751D6C8EF0001C2D55 /* Starscream.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Starscream.framework;
+			remoteRef = 1C05CE741D6C8EF0001C2D55 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1C05CE771D6C8EF0001C2D55 /* Starscream tvOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Starscream tvOSTests.xctest";
+			remoteRef = 1C05CE761D6C8EF0001C2D55 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1CF3E9631D70DF180070F2CC /* libMiniUPnPc.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMiniUPnPc.a;
+			remoteRef = 1CF3E9621D70DF180070F2CC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CE865DC1D67A2D7009AA87C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CE865EC1D67A2D7009AA87C /* LaunchScreen.storyboard in Resources */,
+				1CE865E91D67A2D7009AA87C /* Assets.xcassets in Resources */,
+				1CE865E71D67A2D7009AA87C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CE865F01D67A2D7009AA87C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CE865DA1D67A2D7009AA87C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CE865E41D67A2D7009AA87C /* SigninViewController.swift in Sources */,
+				1CF49EF71D6A6FBF009362D4 /* EZLoadingActivity.swift in Sources */,
+				1CF3E95D1D709B4F0070F2CC /* helper.c in Sources */,
+				1CF3E9671D70E10E0070F2CC /* SettingViewController.swift in Sources */,
+				1C05CE811D6E48DD001C2D55 /* PictureModeViewController.swift in Sources */,
+				1C05CE451D6B9D94001C2D55 /* WicamDelegate.swift in Sources */,
+				1C05CE7F1D6E48C9001C2D55 /* VideoModeViewController.swift in Sources */,
+				1CE865E21D67A2D7009AA87C /* AppDelegate.swift in Sources */,
+				1CE866021D67ACA8009AA87C /* Wicam.swift in Sources */,
+				1CE866041D67C12E009AA87C /* WicamTableViewCell.swift in Sources */,
+				1C05CE7D1D6CA4DF001C2D55 /* WicamStoreDelegate.swift in Sources */,
+				1CFA87E91D68D9F200D5AE06 /* ChooseModeViewController.swift in Sources */,
+				1CE866061D67C7D6009AA87C /* WicamTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CE865EE1D67A2D7009AA87C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CE865F71D67A2D7009AA87C /* WicamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C04E5411D73ADC100F06752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FileBrowser;
+			targetProxy = 1C04E5401D73ADC100F06752 /* PBXContainerItemProxy */;
+		};
+		1C04E5431D73ADC700F06752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MiniUPnPc;
+			targetProxy = 1C04E5421D73ADC700F06752 /* PBXContainerItemProxy */;
+		};
+		1C04E5451D73ADCB00F06752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Starscream iOS";
+			targetProxy = 1C04E5441D73ADCB00F06752 /* PBXContainerItemProxy */;
+		};
+		1C04E5471D73ADCF00F06752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "iOS CocoaAsyncSocket";
+			targetProxy = 1C04E5461D73ADCF00F06752 /* PBXContainerItemProxy */;
+		};
+		1C0C485E1D76632100842D49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FileBrowser;
+			targetProxy = 1C0C485D1D76632100842D49 /* PBXContainerItemProxy */;
+		};
+		1C0C48691D76635D00842D49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Starscream iOS";
+			targetProxy = 1C0C48681D76635D00842D49 /* PBXContainerItemProxy */;
+		};
+		1C0C486D1D76635D00842D49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "iOS CocoaAsyncSocket";
+			targetProxy = 1C0C486C1D76635D00842D49 /* PBXContainerItemProxy */;
+		};
+		1C0C48711D7698A000842D49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FileBrowser;
+			targetProxy = 1C0C48701D7698A000842D49 /* PBXContainerItemProxy */;
+		};
+		1C0C48751D7698A000842D49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Starscream iOS";
+			targetProxy = 1C0C48741D7698A000842D49 /* PBXContainerItemProxy */;
+		};
+		1C0C48791D7698A000842D49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "iOS CocoaAsyncSocket";
+			targetProxy = 1C0C48781D7698A000842D49 /* PBXContainerItemProxy */;
+		};
+		1CE865F41D67A2D7009AA87C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CE865DD1D67A2D7009AA87C /* Wicam */;
+			targetProxy = 1CE865F31D67A2D7009AA87C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CE865E51D67A2D7009AA87C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CE865E61D67A2D7009AA87C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1CE865EA1D67A2D7009AA87C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CE865EB1D67A2D7009AA87C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CE865F91D67A2D7009AA87C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CE865FA1D67A2D7009AA87C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CE865FC1D67A2D7009AA87C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = MiniUPnPc;
+				INFOPLIST_FILE = Wicam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.armstart.OpenWicam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Wicam/Wicam-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1CE865FD1D67A2D7009AA87C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Wicam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.armstart.OpenWicam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Wicam/Wicam-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1CE865FF1D67A2D7009AA87C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WicamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.armstart.WicamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wicam.app/Wicam";
+			};
+			name = Debug;
+		};
+		1CE866001D67A2D7009AA87C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WicamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.armstart.WicamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wicam.app/Wicam";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CE865D91D67A2D7009AA87C /* Build configuration list for PBXProject "Open Wicam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CE865F91D67A2D7009AA87C /* Debug */,
+				1CE865FA1D67A2D7009AA87C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CE865FB1D67A2D7009AA87C /* Build configuration list for PBXNativeTarget "Wicam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CE865FC1D67A2D7009AA87C /* Debug */,
+				1CE865FD1D67A2D7009AA87C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CE865FE1D67A2D7009AA87C /* Build configuration list for PBXNativeTarget "WicamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CE865FF1D67A2D7009AA87C /* Debug */,
+				1CE866001D67A2D7009AA87C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CE865D61D67A2D7009AA87C /* Project object */;
+}

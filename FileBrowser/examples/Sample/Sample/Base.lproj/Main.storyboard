@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Azc-ni-1lY">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="qOO-wm-hTa">
+            <objects>
+                <navigationController id="Azc-ni-1lY" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="He1-CR-cOP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="dpw-R4-j8a" kind="relationship" relationship="rootViewController" id="X2C-fJ-xJK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vih-dz-uz2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="234" y="152"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="mz0-lp-3R4">
+            <objects>
+                <viewController id="dpw-R4-j8a" customClass="ViewController" customModule="Sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="edF-bh-llm"/>
+                        <viewControllerLayoutGuide type="bottom" id="Gww-Pp-M3Q"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oeM-RL-OAb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iNg-oP-MXE">
+                                <rect key="frame" x="239" y="285" width="122" height="30"/>
+                                <state key="normal" title="Show file browser"/>
+                                <connections>
+                                    <action selector="showFileBrowser:" destination="dpw-R4-j8a" eventType="touchUpInside" id="G1A-x2-ExJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iNg-oP-MXE" firstAttribute="centerX" secondItem="oeM-RL-OAb" secondAttribute="centerX" id="GYA-6v-k0x"/>
+                            <constraint firstItem="iNg-oP-MXE" firstAttribute="centerY" secondItem="oeM-RL-OAb" secondAttribute="centerY" id="ryh-da-dpd"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="GLl-37-stv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pqG-S7-8Xl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="894" y="159"/>
+        </scene>
+    </scenes>
+</document>
